@@ -1,9 +1,23 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 # REACT-Portfolio
+
+
+# Description
+
+
+# Intallation
+'npm install'
+'npm run dev'
+'npm i @chakra-ui/react @emotion/react @emotion/styled framer-motion'
+'https://mui.com/material-ui/getting-started/installation/'
+'npm i react-router-dom'
+'npm i react-vertical-timeline-component'
+
+# Usage
+
+
+# Credits
+
+
+
+# License
+Please refer to the LICENSE in the repo.

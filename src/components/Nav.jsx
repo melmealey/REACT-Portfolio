@@ -5,7 +5,7 @@ import {
   BreadcrumbSeparator,
 } from '@chakra-ui/react'
 
-const NavLink = () => {
+const Nav = () => {
   return <>
  <Breadcrumb separator='-'>
   <BreadcrumbItem>
@@ -31,4 +31,6 @@ const NavLink = () => {
   </>
 }
 
-export default NavLink
+export default Nav
+
+
