@@ -10,7 +10,7 @@ export default function Resume() {
 
       <Grid templateColumns='repeat(3, 1fr)' gap={1}>
         <div>
-          <p> Front End Tech </p>
+          <h3> Front End Tech </h3>
           <ul>
             <li> HTML </li>
             <li> CSS </li>
@@ -23,10 +23,11 @@ export default function Resume() {
         </div>
 
         <div>
-          <p> Back End Tech </p>
+          <h3> Back End Tech </h3>
           <ul>
             <li> Node.js </li>
-            <li> Object-Oriented Programming (OOP) </li>
+            <li> Object-Oriented 
+              Programming (OOP) </li>
             <li> Jest </li>
             <li> Express.js </li>
             <li> MySQL </li>
@@ -37,7 +38,7 @@ export default function Resume() {
         </div>
 
         <div>
-          <p> Performance Tech </p>
+          <h3> Performance Tech </h3>
           <ul>
             <li> NoSQL </li>
             <li> Progressive Web Applications (PWA) </li>
