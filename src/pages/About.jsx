@@ -1,25 +1,39 @@
-// import React from 'react'
+import { Image } from '@chakra-ui/react'
 
-// function About () {
-//   return (
-//     <div>About</div>
-//   )
-// }
-
-// export default About
 
 export default function About() {
   return (
     <div>
-      <h1>About Page</h1>
+      <h1>Meet Mel Mealey</h1>
+      <div>
+      <Image
+  borderRadius='full'
+  boxSize='150px'
+  src='https://www.cu.edu.ph/wp-content/uploads/2020/10/girl-avatar.png'
+  alt='Mel Mealey'
+/>
       <p>
-        Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
-        Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
-        mollis diam. Nunc aliquet risus ac finibus porta. Nam quis arcu non
-        lectus tincidunt fermentum. Suspendisse aliquet orci porta quam semper
-        imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus
-        in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
+
+      After completing her Bachelor’s degree in Recreation Management and Youth Leadership, she
+chose to raise a family. While absent from the workforce, she used her knowledge, skills and
+experiences in a number of volunteer capacities; such as teaching children and youth, leading a
+cub scout den and coordinating compassionate service opportunities with members of her
+congregation to ensure struggling families had needs met.
+<br />
+<br />
+
+Over an 8 year period, she grew and managed a personal business as an independent sales
+consultant for Norwex. Through these opportunities, she learned how to interact and work well with
+a diverse group of people with varying needs. In addition, she cultivated her ability for organization
+and refined collaboration strategies to help others achieve short and long-term financial goals. 
+This included working hard toward a professional goal and earning an all-inclusive trip to
+Cancun in October 2021.
+<br />
+<br />
+Mel is an avid learner and can adapt to new challenges quickly. Recently, she has worked as an office manager for a pediatric dental practice while finishing her certification in Web Development.
+
       </p>
+    </div>
     </div>
   );
 }

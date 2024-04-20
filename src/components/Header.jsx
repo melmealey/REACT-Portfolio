@@ -5,8 +5,8 @@ import { Link as ReactRouterLink } from 'react-router-dom'
 
 export const HeaderFlex = chakra(Flex, {
     baseStyle: {
-        backgroundColor: 'blue',
-        padding: '30px',
+        backgroundColor: '#F4BB44',
+        padding: '10px',
         justifyContent: 'space-around'
     }
 })
@@ -15,7 +15,6 @@ export const Header = () => {
     return (
         <>
             <HeaderFlex>
-                <Heading size='4xl' as={ReactRouterLink} to='/'>Mel Mealey</Heading>
                 <Nav></Nav>
             </HeaderFlex>
         </>
