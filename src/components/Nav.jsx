@@ -1,36 +1,28 @@
-import {
-  Breadcrumb,
-  BreadcrumbItem,
-  BreadcrumbLink,
-  BreadcrumbSeparator,
-} from '@chakra-ui/react'
+import { HeaderFlex } from './Header'
+import { Link, chakra } from '@chakra-ui/react'
+import { Link as ReactRouterLink, useLocation } from 'react-router-dom'
+
+const StyledLink = chakra(Link, {
+  baseStyle: {
+    padding: '10px',
+    _hover: { textDecoration: 'underline' },
+    textAlign: 'center',
+    alignSelf: 'center',
+  }
+})
 
 const Nav = () => {
-  return <>
- <Breadcrumb separator='-'>
-  <BreadcrumbItem>
-    <BreadcrumbLink href='#'>About Me</BreadcrumbLink>
-  </BreadcrumbItem>
-
-  <BreadcrumbItem>
-    <BreadcrumbLink href='#'>Portfolio</BreadcrumbLink>
-  </BreadcrumbItem>
-
-
-  <BreadcrumbItem>
-    <BreadcrumbLink href='#'>Contact</BreadcrumbLink>
-  </BreadcrumbItem>
-
-  <BreadcrumbItem>
-    <BreadcrumbLink href='#'>Resume</BreadcrumbLink>
-  </BreadcrumbItem>
-
-</Breadcrumb>
-
-
-  </>
+  const currentPage = useLocation().pathname
+  return (
+    <>
+      <HeaderFlex>
+        <StyledLink as={ReactRouterLink} to='/' className={currentPage === '/' ? 'currentLink' : ''}>About Me</StyledLink>
+        <StyledLink as={ReactRouterLink} to='/Portfolio' className={currentPage === '/Portfolio' ? 'currentLink' : ''}>Portfolio</StyledLink>
+        <StyledLink as={ReactRouterLink} to='/Resume' className={currentPage === '/Resume' ? 'currentLink' : ''}>Resume</StyledLink>
+        <StyledLink as={ReactRouterLink} to='/Contact' className={currentPage === '/Contact' ? 'currentLink' : ''} >Contact</StyledLink>
+      </HeaderFlex>
+    </>
+  )
 }
 
 export default Nav
-
-
