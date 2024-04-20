@@ -26,8 +26,10 @@ export default function Contact() {
       );
   };
 
-  return (
 
+  return (
+    <>
+<h1>CONTACT ME</h1>
 
 <form ref={form} onSubmit={sendEmail}>
 <VStack
@@ -36,11 +38,11 @@ export default function Contact() {
   align='stretch'
 >
   <Box h='40px'>
-     <label>Name  </label>
+     <label>Your Name  </label>
       <input type="text" name="user_name" />
   </Box>
   <Box h='40px'>
-      <label>Email  </label>
+      <label>Your Email  </label>
       <input type="email" name="user_email" />
   </Box>
   
@@ -51,7 +53,7 @@ export default function Contact() {
 </VStack>
       <input type="submit" value="Send" />
     </form>
-
+</>
 
   )
 }
