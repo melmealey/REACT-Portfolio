@@ -5,7 +5,7 @@ import { Link as ReactRouterLink } from 'react-router-dom'
 
 export const HeaderFlex = chakra(Flex, {
     baseStyle: {
-        backgroundColor: '#F4BB44',
+        backgroundColor: '#6cdae7',
         padding: '10px',
         justifyContent: 'space-around'
     }
