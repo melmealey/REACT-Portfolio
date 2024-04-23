@@ -13,10 +13,11 @@ export const HeaderFlex = chakra(Flex, {
 
 export const Header = () => {
     return (
-        <>
+       
             <HeaderFlex>
+                <p>Mel Mealey</p>
                 <Nav></Nav>
             </HeaderFlex>
-        </>
+    
     )
 }

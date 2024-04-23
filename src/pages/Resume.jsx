@@ -5,8 +5,10 @@ export default function Resume() {
 
     
     <div>
-      <h1>Resume</h1>
-
+      <h2>Resume</h2>
+<p>
+  <a href = "./images/Resume.png" >View my Resume</a>
+</p>
 
       <Grid templateColumns='repeat(3, 1fr)' gap={1}>
         <div>
@@ -26,8 +28,7 @@ export default function Resume() {
           <h3> Back End Tech </h3>
           <ul>
             <li> Node.js </li>
-            <li> Object-Oriented 
-              Programming (OOP) </li>
+            <li> Object-Oriented Programming (OOP) </li>
             <li> Jest </li>
             <li> Express.js </li>
             <li> MySQL </li>

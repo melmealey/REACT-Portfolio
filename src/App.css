@@ -4,3 +4,34 @@
   padding: 2rem;
   text-align: left;
 }
+
+h2,
+h3,
+header,
+footer,
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  .satisfy-regular {
+    font-family: "Satisfy", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+}
+
+[aria-current="page"]{
+  font-weight: bold;
+
+}
+
+nav ul {
+  display: flex;
+}
+
+ul{
+  list-style: none;
+
+}
