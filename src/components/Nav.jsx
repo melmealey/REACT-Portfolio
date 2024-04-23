@@ -10,7 +10,7 @@ const StyledLink = chakra(Link, {
     alignSelf: 'center',
   }
 })
-const isCurrentPage =(path) => {
+const isCurrentPage = (path) => {
   const currentPage = useLocation().pathname;
   if (currentPage !== path) {
     return null
@@ -19,16 +19,16 @@ const isCurrentPage =(path) => {
 }
 
 const Nav = () => {
- 
+
   return (
-      <nav>
-        <ul>
-        <li><StyledLink as={ReactRouterLink} to='/' aria-current = {isCurrentPage('/')} >About Me</StyledLink></li>
-        <li><StyledLink as={ReactRouterLink} to='/portfolio' aria-current = {isCurrentPage('/portfolio')}>Portfolio</StyledLink></li>
-        <li><StyledLink as={ReactRouterLink} to='/resume' aria-current = {isCurrentPage('/resume')}>Resume</StyledLink></li>
-        <li><StyledLink as={ReactRouterLink} to='/contact' aria-current = {isCurrentPage('/contact')} >Contact</StyledLink></li>
-        </ul>
-      </nav>
+    <nav>
+      <ul>
+        <li><StyledLink as={ReactRouterLink} to='/' aria-current={isCurrentPage('/')} >About Me</StyledLink></li>
+        <li><StyledLink as={ReactRouterLink} to='/portfolio' aria-current={isCurrentPage('/portfolio')}>Portfolio</StyledLink></li>
+        <li><StyledLink as={ReactRouterLink} to='/resume' aria-current={isCurrentPage('/resume')}>Resume</StyledLink></li>
+        <li><StyledLink as={ReactRouterLink} to='/contact' aria-current={isCurrentPage('/contact')} >Contact</StyledLink></li>
+      </ul>
+    </nav>
   )
 }
 
