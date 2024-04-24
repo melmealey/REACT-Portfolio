@@ -12,7 +12,6 @@ export default function Project(props) {
             <h4 size='md'>{projectTitle} </h4>
 
             <Link href={projectURL} isExternal>
-              {/* <a href= "https://google.com"> */}
               <Image href={projectURL} isExternal
                 src={projectImage}
                 style={{ width: "175px", height: "100px" }}

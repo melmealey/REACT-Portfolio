@@ -13,11 +13,15 @@ export const HeaderFlex = chakra(Flex, {
 
 export const Header = () => {
     return (
+        <>
+            <link rel="preconnect" href="https://fonts.googleapis.com" />
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+            <link href="https://fonts.googleapis.com/css2?family=Acme&family=Satisfy&display=swap" rel="stylesheet" />
 
-        <HeaderFlex>
-            <p>Mel Mealey</p>
-            <Nav></Nav>
-        </HeaderFlex>
-
-    )
-}
+            <HeaderFlex>
+                <p style={{ fontFamily: 'Acme, sans-serif' }}>Mel Mealey</p>
+                <Nav />
+            </HeaderFlex>
+        </>
+    );
+};

@@ -10,7 +10,7 @@ export default function Resume() {
   <a href = "./images/Resume.png" >View my Resume</a>
 </p>
 
-      <Grid templateColumns='repeat(3, 1fr)' gap={1}>
+      <Grid templateColumns='repeat(3, 1fr)' gap={0}>
         <div>
           <h3> Front End Tech </h3>
           <ul>

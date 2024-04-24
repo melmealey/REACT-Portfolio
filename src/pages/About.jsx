@@ -13,7 +13,7 @@ export default function About() {
           alt='Mel Mealey'
         />
         <p>
-          After completing her Bachelor’s degree in Recreation Management and Youth Leadership, I chose to raise a family. While absent from the workforce, I used my knowledge, skills and experiences in a number of volunteer capacities; such as teaching children and youth, leading a cub scout den and coordinating compassionate service opportunities with members of my congregation to ensure struggling families had needs met.
+          After completing my Bachelor’s degree in Recreation Management and Youth Leadership, I chose to raise a family. While absent from the workforce, I used my knowledge, skills and experiences in a number of volunteer capacities; such as teaching children and youth, leading a cub scout den and coordinating compassionate service opportunities with members of my congregation to ensure struggling families had needs met.
         </p>
         <p>
           Over an 8 year period, I grew and managed a personal business as an independent sales consultant for Norwex. Through these opportunities, I learned how to interact and work well with a diverse group of people with varying needs. In addition, I cultivated my ability for organization and refined collaboration strategies to help others achieve short and long-term financial goals. This included working hard toward a professional goal and earning an all-inclusive trip to Cancun in October 2021.
