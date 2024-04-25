@@ -1,8 +1,18 @@
+*{
+  box-sizing: border-box;
+}
+
 #root {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
-  text-align: left;
+}
+
+body {
+  margin: 0px;
+}
+
+main {
+  padding: 0 1rem;
 }
 
 h2,
@@ -11,6 +21,7 @@ header,
 footer,
 body {
   font-family: 'Roboto', sans-serif;
+  
 }
 
   .satisfy-regular {
@@ -22,21 +33,42 @@ body {
 
 [aria-current="page"]{
   font-weight: bold;
+  color: #5b8075;
 
 }
 
 nav ul {
   display: flex;
-}
-
-ul{
   list-style: none;
+  flex-wrap: wrap;
 
 }
 
-/* .acme-regular {
-  font-family: "Acme", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+.project-links{
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  gap: 15px;
+  flex-wrap: wrap;
   
-} */
+}
+
+.project-links a {
+  text-decoration: none;
+  background-color: rgb(152, 228, 248);
+  color: black;
+  padding: 5px;
+  border-radius: 1ch;
+  
+}
+
+a image {
+  display: flex;
+  flex-direction: column;
+}
+
+
+/* style project image link and image */
+/* flex prop on header children OR media query */
+
+

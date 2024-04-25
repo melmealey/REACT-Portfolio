@@ -6,7 +6,8 @@ import { IconButton } from '@chakra-ui/react'
 export default function Portfolio() {
   return (
     <>
-      <h3>Here's a taste of some of my best work</h3>
+      <h1>Portfolio</h1>
+      
 
       <SimpleGrid minChildWidth='120px' spacing='40px'>
       <Project
@@ -26,10 +27,11 @@ export default function Portfolio() {
         <Project
           projectTitle={'What\'s the Weather? '}
           projectImage={'/images/Weather.png'}
-          projectText={'This website will allow you to search and display the current temp in °F, humidity and wind speed (in MPH) for any city that you search. It will also store your previous seraches so that you can easily click most searched cities. Very handy when you have family all over the map and are interested in the weather they are experiencing.'}
+          projectText={'This website will allow you to search and display the current temp, humidity and wind speed for any city that you search. It will also store your previous seraches so that you can easily click most searched cities. Very handy when you have family all over the map and are interested in the weather they are experiencing.'}
           projectURL={'https://melmealey.github.io/Weather-Dashboard/'}
           projectGitHub={'https://github.com/melmealey/Weather-Dashboard'}
         />
+     
      
          <Project
           projectTitle={'ORM e-commerce'}
