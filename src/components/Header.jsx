@@ -7,7 +7,7 @@ import { Link as ReactRouterLink } from 'react-router-dom';
 export const HeaderFlex = chakra(Flex, {
     baseStyle: {
       backgroundColor: '#6cdae7',
-      padding: '10px',
+      padding: '15px',
       justifyContent: 'space-around',
       flexDirection: { base: 'column', md: 'row' }, 
       alignItems: 'center',
@@ -17,6 +17,7 @@ export const HeaderFlex = chakra(Flex, {
 export const Header = () => {
     return (
         <HeaderFlex>
+            {/*  */}
           <p style={{ fontFamily: 'Acme, sans-serif', fontSize: "200%" }}>Mel Mealey</p>
           <Nav />
         </HeaderFlex>

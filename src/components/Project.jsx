@@ -7,7 +7,7 @@ export default function Project(props) {
     <>
       <Card maxW='sm' m={4}>
         <CardBody>
-          <Stack mt='6' spacing='3'>
+          <Stack mt='3' spacing='1'>
             <h4>{projectTitle}</h4>
             <Flex flexDirection="row" alignItems="center" >
               <a href={projectURL}>

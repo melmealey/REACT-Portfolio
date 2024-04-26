@@ -24,6 +24,31 @@ body {
   
 }
 
+
+.honk {
+  font-family: "Honk", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "MORF" 15,
+    "SHLN" 50;
+}
+
+.satisfy-regular {
+  font-family: "Satisfy", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.acme-regular {
+  font-family: "Acme", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
   .satisfy-regular {
     font-family: "Satisfy", cursive;
     font-weight: 400;
@@ -32,6 +57,7 @@ body {
   
 
 [aria-current="page"]{
+  text-decoration: none;
   font-weight: bold;
   color: #5b8075;
 
@@ -41,6 +67,8 @@ nav ul {
   display: flex;
   list-style: none;
   flex-wrap: wrap;
+  text-decoration: none;
+
 
 }
 
@@ -59,6 +87,7 @@ nav ul {
   color: black;
   padding: 5px;
   border-radius: 1ch;
+  
   
 }
 
