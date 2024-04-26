@@ -23,6 +23,7 @@ The page will load to About Me as a Home page. Click each of the Navigation tabs
   https://www.youtube.com/watch?v=bMq2riFCF90
   https://www.emailjs.com/docs/examples/reactjs/
 * https://v2.chakra-ui.com/getting-started
+* For my name font - https://fonts.google.com/selection/embed
 * Ask BCS and Xpert Learning Assistant
 * My Tutor
 

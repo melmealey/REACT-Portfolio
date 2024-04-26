@@ -9,18 +9,20 @@ export const HeaderFlex = chakra(Flex, {
       backgroundColor: '#6cdae7',
       padding: '15px',
       justifyContent: 'space-around',
-      flexDirection: { base: 'column', md: 'row' }, 
+      flexDirection: 'column', 
       alignItems: 'center',
     }
   });
 
 export const Header = () => {
     return (
+    
         <HeaderFlex>
-            {/*  */}
-          <p style={{ fontFamily: 'Acme, sans-serif', fontSize: "200%" }}>Mel Mealey</p>
+          <p className='honk-header'>Mel Mealey</p>
           <Nav />
         </HeaderFlex>
+        
+       
     );
   };
   

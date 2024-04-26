@@ -12,7 +12,7 @@ body {
 }
 
 main {
-  padding: 0 1rem;
+  padding: 0 2rem;
 }
 
 h2,
@@ -21,33 +21,9 @@ header,
 footer,
 body {
   font-family: 'Roboto', sans-serif;
+  font-size: small;
   
 }
-
-
-.honk {
-  font-family: "Honk", system-ui;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-  font-variation-settings:
-    "MORF" 15,
-    "SHLN" 50;
-}
-
-.satisfy-regular {
-  font-family: "Satisfy", cursive;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.acme-regular {
-  font-family: "Acme", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-
 
   .satisfy-regular {
     font-family: "Satisfy", cursive;
@@ -60,7 +36,6 @@ body {
   text-decoration: none;
   font-weight: bold;
   color: #5b8075;
-
 }
 
 nav ul {
@@ -68,8 +43,6 @@ nav ul {
   list-style: none;
   flex-wrap: wrap;
   text-decoration: none;
-
-
 }
 
 .project-links{
@@ -78,7 +51,6 @@ nav ul {
   padding: 0;
   gap: 15px;
   flex-wrap: wrap;
-  
 }
 
 .project-links a {
@@ -87,14 +59,38 @@ nav ul {
   color: black;
   padding: 5px;
   border-radius: 1ch;
-  
-  
 }
 
 a image {
   display: flex;
   flex-direction: column;
 }
+
+.honk-header {
+  font-size:xx-large;
+  margin-top: 0cap;
+  margin-bottom: 0cap;
+  font-family: "Honk", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "MORF" 15,
+    "SHLN" 50;
+}
+
+.acme-regular {
+  font-family: "Acme", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.satisfy-regular {
+  font-family: "Satisfy", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
 
 
 /* style project image link and image */
