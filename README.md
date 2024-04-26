@@ -1,5 +1,7 @@
 # REACT-Portfolio
-<img width="1435" alt="Screenshot 2024-04-22 at 10 24 32 PM" src="https://github.com/melmealey/REACT-Portfolio/assets/147653410/ba2bc5e7-803c-493b-9588-3c7fe9c4f4e6">
+<img width="300" alt="Screenshot 2024-04-26 at 6 55 29 PM" src="https://github.com/melmealey/REACT-Portfolio/assets/147653410/5ea2f073-19d4-4062-bcef-afde9b1adc93">
+
+<img width="299" alt="Screenshot 2024-04-26 at 6 56 01 PM" src="https://github.com/melmealey/REACT-Portfolio/assets/147653410/da7b9feb-faa4-4d5c-8bd3-8114286dfd52">
 
 # Description
 I used React, React router and Vite to showcase my work as a web developer. This is a single-page application sharing about me, a few work projects, my resume and a contact form.
