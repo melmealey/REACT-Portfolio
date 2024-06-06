@@ -1,4 +1,4 @@
-*{
+* {
   box-sizing: border-box;
 }
 
@@ -15,6 +15,8 @@ main {
   padding: 0 2rem;
 }
 
+
+
 h2,
 h3,
 header,
@@ -22,17 +24,18 @@ footer,
 body {
   font-family: 'Roboto', sans-serif;
   font-size: small;
-  
 }
 
-  .satisfy-regular {
-    font-family: "Satisfy", cursive;
-    font-weight: 400;
-    font-style: normal;
-  }
-  
+.satisfy-regular {
+  display: flex;
+  justify-content: center;
+  font-family: "Satisfy", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
 
-[aria-current="page"]{
+
+[aria-current="page"] {
   text-decoration: none;
   font-weight: bold;
   color: #5b8075;
@@ -45,7 +48,7 @@ nav ul {
   text-decoration: none;
 }
 
-.project-links{
+.project-links {
   display: flex;
   list-style-type: none;
   padding: 0;
@@ -67,7 +70,7 @@ a image {
 }
 
 .honk-header {
-  font-size:xx-large;
+  font-size: xx-large;
   margin-top: 0cap;
   margin-bottom: 0cap;
   font-family: "Honk", system-ui;
@@ -90,10 +93,3 @@ a image {
   font-weight: 400;
   font-style: normal;
 }
-
-
-
-/* style project image link and image */
-/* flex prop on header children OR media query */
-
-

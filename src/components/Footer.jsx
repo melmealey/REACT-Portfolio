@@ -9,8 +9,8 @@ const Footer = () => {
           <a href='https://www.linkedin.com/in/mel-mealey-bb0048a2/'>
             <img src="images/LinkedIn logo.png" alt="LinkedIn" style={{ width: '50px', height: '50px' }} />
           </a>
-          <a href='https://www.facebook.com/mel.mealey'>
-            <img src="images/Facebook.svg" alt="Github" style={{ width: '50px', height: '50px' }} />
+          <a href='https://www.codecademy.com/learn'>
+            <img src="images/codecademy.png" alt="codecademy" style={{ width: '50px', height: '50px' }} />
           </a>
       </ul>
     </footer>

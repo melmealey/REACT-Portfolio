@@ -4,7 +4,10 @@ import { Image, Heading } from '@chakra-ui/react'
 export default function About() {
   return (
     <div>
-      <Heading as="h1" className="satisfy-regular" size="xl">Meet Mel Mealey</Heading>
+      
+      <Heading 
+      as="h1" className="satisfy-regular" size="xl">Meet Mel Mealey
+      </Heading>
       <div>
         <Image
           borderRadius='full'

@@ -30,7 +30,7 @@ export default function Contact() {
   return (
     <>
 <h1>CONTACT ME</h1>
-
+<h3>I will respond to your email within the day</h3>
 <form ref={form} onSubmit={sendEmail}>
 <VStack
   divider={<StackDivider borderColor='gray.200' />}
@@ -47,7 +47,7 @@ export default function Contact() {
   </Box>
   
        <label>Message </label>
-       <Box h='40px'>
+       <Box h='45px'>
       <textarea name="message" />
   </Box>
 </VStack>

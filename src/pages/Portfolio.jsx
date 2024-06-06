@@ -7,6 +7,7 @@ export default function Portfolio() {
   return (
     <>
       <h1>Portfolio</h1>
+       <h3>A taste of some of my favorite projects. Click either the image or title of the project to see it in action. </h3>
       
 
       <SimpleGrid minChildWidth='120px' spacing='40px'>
