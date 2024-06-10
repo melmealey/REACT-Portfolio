@@ -16,7 +16,6 @@ main {
 }
 
 
-
 h2,
 h3,
 header,
@@ -66,7 +65,7 @@ nav ul {
 
 a image {
   display: flex;
-  flex-direction: column;
+  flex-direction: center;
 }
 
 .honk-header {
@@ -93,3 +92,9 @@ a image {
   font-weight: 400;
   font-style: normal;
 }
+
+/* img.chakra-image.css-1oidk5m {
+  display: flex;
+  flex-direction: center;
+
+} */
