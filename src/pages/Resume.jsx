@@ -7,11 +7,12 @@ export default function Resume() {
     <div>
       <h2>Resume</h2>
 <p>
-  <a href = "./images/Mel Mealey-Resume.pdf" >View my Resume</a>
+  <a href = "./images/Mel Mealey-WebDeveloper.pdf" >View my Resume</a>
 </p>
 
       <Grid templateColumns='repeat(3, 1fr)' gap={0}>
         <div>
+        
           <h3> Front End Tech </h3>
           <ul>
             <li> HTML </li>
@@ -52,6 +53,8 @@ export default function Resume() {
 
         </div>
       </Grid>
+      
     </div>
+    
   )
 }
